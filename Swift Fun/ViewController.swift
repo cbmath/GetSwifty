@@ -22,6 +22,7 @@ class ViewController: UIViewController {
             disLabel.text = "eskeeeiiittt"
             //this changes text and background
         }
+        print(buttonCount)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
