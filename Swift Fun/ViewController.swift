@@ -3,7 +3,7 @@
 //  Swift Fun
 //
 //  Created by Craig Mathieson on 2017-12-09.
-//  Copyright © 2017 Craig Mathieson. All rights reserved.
+//  Copyright © 2017 Craig Mathieson. All rights reserved..
 //
 
 import UIKit
