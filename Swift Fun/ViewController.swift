@@ -10,6 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var disLabel: UILabel!
+    
+    var buttonCount = 0
+    
+    @IBAction func changeText(_ sender: Any) {
+        
+        buttonCount = buttonCount + 1
+        if buttonCount == 10 {
+            view.backgroundColor = UIColor.red
+            disLabel.text = "eskeeeiiittt"
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
