@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         if buttonCount == 10 {
             view.backgroundColor = UIColor.red
             disLabel.text = "eskeeeiiittt"
+            //this changes text and background
         }
     }
     override func viewDidLoad() {
